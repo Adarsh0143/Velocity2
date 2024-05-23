@@ -69,9 +69,7 @@ const Hero = () => {
                             </h2>
                             <p>Get early access of this game.</p>
                             <div className="card-actions justify-end">
-                                <button className="btn btn-primary"
-                                    onClick={()=>navigate("/product-detail/6642efd52499668d3b38666f")}
-                                >
+                                <button className="btn btn-primary" >
                                     Get Access
                                 </button>
                             </div>
@@ -258,7 +256,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                {/* <div>
+                <div>
                     <div>
                         <div className="bg-[#B0BBBF] hover:bg-transparent m-4 p-4 flex justify-center rounded-xl ">
                             <div className="  w-96 bg-base-100 shadow-xl rounded-lg m-4 border-4 border-black  hover:border-blue-500">
@@ -284,7 +282,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 <div>
                     <div>
@@ -300,9 +298,7 @@ const Hero = () => {
                                     Add Counter Strike Global Offensive 2.
                                 </p>
                                 <div className="card-actions justify-center">
-                                    <button className="btn w-96 h-24 btn-primary text-3xl"
-                                            onClick={()=>navigate("/product-detail/6642efd52499668d3b38666f")}
-                                    >
+                                    <button className="btn w-96 h-24 btn-primary text-3xl">
                                         Play
                                     </button>
                                 </div>
