@@ -33,9 +33,9 @@ const LoginForm = () => {
 
             dispatch(login());
 
-            if (user.roleAdmin) {
-                return navigate('/admin-dashboard/products');
-            }
+            // if (user.roleAdmin) {
+            //     return navigate('/admin-dashboard/products');
+            // }
             navigate('/products');
         } catch (e) {
             setInvalid(true);
