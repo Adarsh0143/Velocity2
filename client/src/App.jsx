@@ -49,13 +49,13 @@ const App = () => {
                     <Route path="/orders" element={<AuthenticatedRoute><Order /></AuthenticatedRoute>} />
                     <Route path="/orders/:id" element={<AuthenticatedRoute><OrderDetail /></AuthenticatedRoute>} />
 
-                    <Route path="/admin-dashboard/:dashboard"
+                    {/* <Route path="/admin-dashboard/:dashboard"
                         element={<AuthenticatedRoute><AdminDashboard /></AuthenticatedRoute>} />
                     <Route path="/admin-dashboard/products/create-product"
                         element={<AuthenticatedRoute><CreateProduct /></AuthenticatedRoute>} />
 
                     <Route path="/admin-dashboard/products/update-product/:productId"
-                        element={<AuthenticatedRoute><UpdateProduct /></AuthenticatedRoute>} />
+                        element={<AuthenticatedRoute><UpdateProduct /></AuthenticatedRoute>} /> */}
 
                     <Route path="*" element={<ErrorPage />} />
                 </Routes>
